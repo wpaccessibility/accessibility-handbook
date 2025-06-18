@@ -1,0 +1,79 @@
+{
+"index": {
+"title": "Accessibility's Handbook",
+"slug": null,
+"markdown_source": "https:\/\/github.com\/WordPress\/accessibility-handbook\/blob\/main\/index.md",
+"parent": null,
+"order": -1
+},
+"the-team": {
+"title": "The Team",
+"slug": "the-team",
+"markdown_source": "https:\/\/github.com\/WordPress\/plugins-handbook\/blob\/main\/the-team\/index.md",
+"parent": null,
+"order": 1
+},
+"expectations": {
+"title": "Expectations",
+"slug": "expectations",
+"markdown_source": "https:\/\/github.com\/WordPress\/plugins-handbook\/blob\/main\/expectations\/index.md",
+"parent": null,
+"order": 2
+},
+"get-involved": {
+"title": "Get Involved",
+"slug": "get-involved",
+"markdown_source": "https:\/\/github.com\/WordPress\/plugins-handbook\/blob\/main\/get-involved\/index.md",
+"parent": null,
+"order": 3
+},
+"performing-reviews": {
+"title": "Performing Reviews",
+"slug": "performing-reviews",
+"markdown_source": "https:\/\/github.com\/WordPress\/plugins-handbook\/blob\/main\/performing-reviews\/index.md",
+"parent": null,
+"order": 4
+},
+"performing-reviews\/review-admin-tool": {
+"title": "Using the Review Admin Tool",
+"slug": "review-admin-tool",
+"markdown_source": "https:\/\/github.com\/WordPress\/plugins-handbook\/blob\/main\/performing-reviews\/review-admin-tool\/index.md",
+"parent": "performing-reviews",
+"order": 1
+},
+"performing-reviews\/review-checklist": {
+"title": "Review Checklist",
+"slug": "review-checklist",
+"markdown_source": "https:\/\/github.com\/WordPress\/plugins-handbook\/blob\/main\/performing-reviews\/review-checklist\/index.md",
+"parent": "performing-reviews",
+"order": 2
+},
+"performing-reviews\/review-walkthrough": {
+"title": "Review Walkthrough",
+"slug": "review-walkthrough",
+"markdown_source": "https:\/\/github.com\/WordPress\/plugins-handbook\/blob\/main\/performing-reviews\/review-walkthrough\/index.md",
+"parent": "performing-reviews",
+"order": 3
+},
+"performing-reviews\/security-and-guideline-violation-reports": {
+"title": "Security and Guideline Violation Reports",
+"slug": "security-and-guideline-violation-reports",
+"markdown_source": "https:\/\/github.com\/WordPress\/plugins-handbook\/blob\/main\/performing-reviews\/security-and-guideline-violation-reports\/index.md",
+"parent": "performing-reviews",
+"order": 4
+},
+"directory-maintenance": {
+"title": "Directory Maintenance",
+"slug": "directory-maintenance",
+"markdown_source": "https:\/\/github.com\/WordPress\/plugins-handbook\/blob\/main\/directory-maintenance\/index.md",
+"parent": null,
+"order": 5
+},
+"apply": {
+"title": "Join the Plugin Review Team",
+"slug": "apply",
+"markdown_source": "https:\/\/github.com\/WordPress\/plugins-handbook\/blob\/main\/apply\/index.md",
+"parent": null,
+"order": 6
+}
+}
