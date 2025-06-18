@@ -1,4 +1,4 @@
-# WordPress Accessibility Documentation
+# WordPress Accessibility Handbook
 Documentation to help WordPress developers create more accessible applications.
 
 In this repository we work on converting the documentation in our [Handbook](https://make.wordpress.org/accessibility/handbook/) to Markdown. 
