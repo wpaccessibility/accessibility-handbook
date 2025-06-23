@@ -10,10 +10,10 @@ The most common guidelines in current use are [WCAG version 2.1 at level AA](htt
 
 ## Resources:
 
-- Inclusive Design Components by Heydon Pickering
-- United Kingdom’s Design System library
-- United States’ Design System library
-- Accessible Components by Scott O’Hara
+- [Inclusive Design Components by Heydon Pickering](https://inclusive-components.design/)
+- [United Kingdom’s Design System library](https://design-system.service.gov.uk/)
+- [United States’ Design System library](https://designsystem.digital.gov/)
+- [Accessible Components by Scott O’Hara](https://github.com/scottaohara/accessible_components)
 
 ## Interactive Elements
 
@@ -51,7 +51,7 @@ If you’re providing a group of checkboxes or radio buttons, the label for the 
 
 Attaching JavaScript to `<div>` or `<span>` elements can work great for mouse users, but leaves a ton of gaps for anybody using a screen reader or keyboard to use your site. Using standard form elements helps ensure that forms and toggles work for everybody.
 
-You can use an anchor element for button-like behavior, but this creates accessibility problems, such as preventing the user from cancelling the action.
+You can use an anchor element for button-like behavior, but this creates accessibility problems, such as [preventing the user from cancelling the action](https://adrianroselli.com/2016/01/links-buttons-submits-and-divs-oh-hell.html?Theme=Light#Keyboard).
 
 ### Announce dynamic changes audibly
 
