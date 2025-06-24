@@ -18,7 +18,7 @@ There are a few things to watch out for to make this usable for everyone.
 - make sure that the thumbnail has an appropriate link text
 - avoid block level links
 
-A screen reader user can call a list of links to quickly navigate a site. Then duplicate and meaningless links are annoying and time-consuming.
+A screen reader user can call a list of links to quickly navigate a site. Then [duplicate and meaningless links](https://make.wordpress.org/accessibility/handbook/best-practices/content/good-link-texts/) are annoying and time-consuming.
 
 ### Duplicate links
 
@@ -29,7 +29,9 @@ But adding `aria-hidden="true"` alone might be confusing because you can tab int
 So: take the link also out of the tab order by using `tabindex="-1"`:
 
 ```html
-<a href="your-url" aria-hidden="true" tabindex="-1">link text</a>
+<a href="your-url" aria-hidden="true" tabindex="-1">
+        link text
+</a>
 ```
 
 ### Meaningless link text
@@ -48,12 +50,14 @@ Notice the blank space inside the `.screen-reader-text`? This separates teh word
 
 ### The alt text of the thumbnail
 
-If the thumbnail is placed inside a link, the alt attribute serves as the link text. So it’s important that the alt text is not empty and contains the post title of the post it’s linking to.
+If the thumbnail is placed inside a link, the [alt attribute serves as the link text](https://make.wordpress.org/accessibility/handbook/best-practices/content/good-link-texts/#images-as-link). So it’s important that the alt text is not empty and contains the post title of the post it’s linking to.
 
 For example:
 
 ```html
-<a href="your-url"><img src="img-url" alt="Your post title"></a>
+<a href="your-url">
+    <img src="img-url" alt="Your post title">
+</a>
 ```
 
 ### Block level links

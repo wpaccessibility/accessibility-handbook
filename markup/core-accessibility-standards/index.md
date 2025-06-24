@@ -95,8 +95,8 @@ For icon fonts, the icon itself should have the aria-hidden attribute, with scre
 
 ```html
 <a href="this.html">
-<span class="dashicons dashicon-thumbs-up" aria-hidden="true"></span>
-<span class="screen-reader-text">Something</span>
+    <span class="dashicons dashicon-thumbs-up" aria-hidden="true"></span>
+    <span class="screen-reader-text">Something</span>
 </a>
 ```
 
@@ -115,7 +115,9 @@ Don’t introduce new title attributes to convey information. Use `aria-label` w
 When using `aria-label`, be sure that the `aria-label` value contains any visible text on the control. The visible text should be the first part of the `aria-label` text. E.g.
 
 ```html
-<button type="button" aria-label="Delete this post">Delete</button>
+<button type="button" aria-label="Delete this post">
+    Delete
+</button>
 ```
 
 When creating forms, use `<fieldset>` and `<legend>` to group logically related form elements inside complex forms or to group radio buttons and checkboxes under a heading.

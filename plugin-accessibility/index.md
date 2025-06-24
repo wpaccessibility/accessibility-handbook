@@ -57,9 +57,8 @@ You can use an anchor element for button-like behavior, but this creates accessi
 
 When an AJAX action runs, announce it audibly or move focus to an appropriate new location on the page.
 
-WordPress contains a useful method called `wp.a11y.speak()` that you can use to announce results audibly. This gives screen reader users important feedback that something is happening, and what they can do next. If you’d show a result visually, you should also announce it audibly. 
-
-Learn more about [wp.a11y.speak()](https://make.wordpress.org/accessibility/2015/04/15/let-wordpress-speak-new-in-wordpress-4-2/).
+WordPress contains a useful method called `wp.a11y.speak()` that you can use to announce results audibly. This gives screen reader users important feedback that something is happening, and what they can do next. If you’d show a result visually, you should also announce it audibly.
+[Learn more about wp.a11y.speak()](https://make.wordpress.org/accessibility/2015/04/15/let-wordpress-speak-new-in-wordpress-4-2/).
 
 Moving focus to a new location on the page will also generate new information for screen readers. This is appropriate when the action taken changes the user’s view, and they need to be informed of the change.
 
@@ -118,7 +117,9 @@ Reduced motion doesn’t have to mean no animation at all, but it should be very
 
 You can check for the media query in JavaScript by checking the value of the media query:
 
-`const mediaQuery = window.matchMedia(“(prefers-reduced-motion: reduce)”);`
+```
+const mediaQuery = window.matchMedia(“(prefers-reduced-motion: reduce)”);
+```
 
 - [Respecting “Prefers Reduced Motion” with JavaScript and React](https://since1979.dev/respecting-prefers-reduced-motion-with-javascript-and-react/), by Stephan Nijman
 - [Prefers-reduced-motion ](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion)from MDN Web Docs

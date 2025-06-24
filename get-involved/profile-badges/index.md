@@ -7,7 +7,7 @@ On your personal WordPress.org profile, badges are added based on your contribut
 A contributor to the Make Accessible Team can be recognized for their contribution/contributions to the Accessibility Contributor Badge. Contributions can include:
 
 - Facilitating a bug-scrub session;
-- Commit, Comment on, or report accessibility issues to the WordPress open-source project on GitHub or on Trac;
+- Commit, Comment on, or report accessibility issues to the WordPress open-source project on [GitHub](https://github.com/wordpress) or on [Trac](https://core.trac.wordpress.org/);
 - Assist the Make Accessible Team with the Weekly Meeting with administrative work such as posting an agenda or writing a follow-up for the meeting;
 - Update, suggest an edit, or draft a new documents in the Accessibility Team Handbook;
 - Contribute to the accessibility of the WordPress.org network of sites, including OpenVerse, Learn.wordpress.org, wordpress.tv, or any of the other sites.

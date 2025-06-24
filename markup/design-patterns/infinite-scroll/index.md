@@ -11,7 +11,7 @@ We don’t recommend using infinite scroll because it has many significant acces
 - There is no URL to a specific place on the page.
 - And the list goes on…
 
-There is a great summary in the “Reconsider the usage of infinite scrolling across the admin” trac ticket for more information.
+There is a great summary in the “[Reconsider the usage of infinite scrolling across the admin](https://core.trac.wordpress.org/ticket/40330)” trac ticket for more information.
 
 ## Recommendations
 

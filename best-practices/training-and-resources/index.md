@@ -22,10 +22,10 @@ Mike Gifford maintains a large list of courses, webinars, educational videos and
 
 ## Pattern libraries
 
-- The A11y project
-- Inclusive Components, pattern library, with a focus on inclusive design
-- GOV.UK elements
-- Deque University Code Examples and Accessibility Resources
+- [The A11y project](https://a11yproject.com/)
+- [Inclusive Components](https://inclusive-components.design/), pattern library, with a focus on inclusive design
+- [GOV.UK elements](https://patternlib.medway.gov.uk/)
+- [Deque University Code Examples and Accessibility Resources](https://dequeuniversity.com/resources/)
 
 ## Books
 

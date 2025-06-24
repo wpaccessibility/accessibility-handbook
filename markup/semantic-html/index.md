@@ -27,7 +27,7 @@ The semantics of every element is defined in the HTML specifications. Some eleme
 
 Not all semantic elements are directly interpreted by assistive technology, strong and em are considered semantic, but don’t have any direct impact on how screen readers behave using default settings. However, many elements can optionally be interpreted by screen readers, and are still well worth using.
 
-**Note**: Adding `<h1>`s to every <section> in a page, as proposed in early HTML5, is not valid, because no browser supports the HTML5 outline. Use of this model hinders screen reader users in understanding the web page. If you’re not convinced, read [Computer says NO to HTML5 document outline](http://html5doctor.com/computer-says-no-to-html5-document-outline/) by Steve Faulkner.
+**Note**: Adding `<h1>`s to every `<section>` in a page, as proposed in early HTML5, is not valid, because no browser supports the HTML5 outline. Use of this model hinders screen reader users in understanding the web page. If you’re not convinced, read [Computer says NO to HTML5 document outline](http://html5doctor.com/computer-says-no-to-html5-document-outline/) by Steve Faulkner.
 
 ## Examples
 

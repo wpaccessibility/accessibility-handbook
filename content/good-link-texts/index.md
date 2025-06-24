@@ -46,10 +46,10 @@ Some URLs are highly readable, such as “wordpress.org”. Others are almost im
 
 ### Examples
 
-_Poor qualify (non-descriptive) link texts:_
+_Poor qualify (non-descriptive) link texts:_  
 If you are interested in our work, [click here](#dummy-link) to subscribe to our newsletter. You can [download](#dummy-link) the manual of the espresso machine, or contact us for more [info](#dummy-link).
 
-_Helpful (descriptive) link texts:_
+_Helpful (descriptive) link texts:_  
 [Subscribe to our newsletter](#dummy-link) if you are interested in our work. You can download the [manual as a PDF](#dummy-link) of the espresso machine, or [contact us](#dummy-link) for more info.
 
 ## Images as links

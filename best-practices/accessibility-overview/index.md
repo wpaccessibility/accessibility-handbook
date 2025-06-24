@@ -21,7 +21,7 @@ Here are some challenges users encounter on inaccessible websites:
 - Kaia is blind. Links that are an image or an icon font, with no link text, are effectively invisible to her.
 - Carlos is color blind. He can’t distinguish the red links from the black text.
 - Ray is in his 50s. His eyesight has degraded. He can no longer read small grey text on top a darker grey background.
-- Braiden has ADD. A distracting animation in the sidebar, with no user-control for stopping, prevents her from focusing on the page content.
+- Braiden has ADD (Attention Deficit Disorder). A distracting animation in the sidebar, with no user-control for stopping, prevents her from focusing on the page content.
 - Alyssa is deaf. A video without subtitles is unusable to her.
 - Yurem has Down syndrome. He can’t comprehend the content of a webpage because the writing is unnecessarily complicated.
 - Jabari lives in Western Africa. He has a slow Internet connection. Sites bloated with heavy scripts and images keep him from browsing a substantial portion of the Web.
@@ -32,9 +32,9 @@ These people — and many more like them — already face lots of life challenge
 
 An inclusive website enhances your business. It will:
 
-- Increase Traffic. More people can complete orders in your web shop.
-- Comply with the Law. Your website is better prepared to adhere to your nation’s accessibility regulations and government contract requirements.
-- Improve SEO. Google, the largest user of the internet, is blind and deaf.
+- _Increase Traffic_. More people can complete orders in your web shop.
+- _Comply with the Law_. Your website is better prepared to adhere to your nation’s accessibility regulations and government contract requirements.
+- _Improve SEO_. Google, the largest user of the internet, is blind and deaf.
 
 The website you build is not for you, or even your client. It’s for the users. Increasing accessibility instantly gains you a larger potential user-base.
 

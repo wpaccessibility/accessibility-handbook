@@ -2,17 +2,15 @@
 
 The [WCAG 2.0 requirements](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html) for resizing text are quite loose:
 
-Resize text: Except for captions and images of text, text can be resized without assistive technology up to 200 percent without loss of content or functionality. (Level AA).  
+> Resize text: Except for captions and images of text, text can be resized without assistive technology up to 200 percent without loss of content or functionality. (Level AA).  
   [Success Criterion 1.4.4, Resize Text](https://www.w3.org/WAI/WCAG21/Understanding/resize-text.html)
 
 In [WCAG 2.1](https://www.w3.org/TR/WCAG21/), there is an additional requirement for text size:
 
-Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions for:  
-
-- Vertical scrolling content at a width equivalent to 320 [CSS pixels](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html#dfn-css-pixel);  
-- Horizontal scrolling content at a height equivalent to 256 [CSS pixels](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html#dfn-css-pixel).Except for parts of the content which require two-dimensional layout for usage or meaning. 
-
-[Success Criterion 1.4.10, Reflow](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html)
+> Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions for:
+> - Vertical scrolling content at a width equivalent to 320 [CSS pixels](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html#dfn-css-pixel);  
+> - Horizontal scrolling content at a height equivalent to 256 [CSS pixels](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html#dfn-css-pixel).Except for parts of the content which require two-dimensional layout for usage or meaning.
+> [Success Criterion 1.4.10, Reflow](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html)
 
 Success Criterion 1.4.10 impacts font resizing because increases of font size must not trigger multidimensional scrolling.
 

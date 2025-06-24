@@ -14,7 +14,7 @@ You find detailed test information per subject in the handbook pages:
 
 ## What are the guidelines?
 
-The World Wide Web Consortium (W3C)  developed guidelines to safeguard the accessibility of a website: the Web Content Accessibility Guidelines: WCAG. We are currently at version 2.1 Version 2.2 is in draft and due to be finalised in September 2022.
+The World Wide Web Consortium (W3C)  developed guidelines to safeguard the accessibility of a website: the [Web Content Accessibility Guidelines: WCAG](https://www.w3.org/WAI/intro/wcag). We are currently at version 2.1 Version 2.2 is in draft and due to be finalised in September 2022.
 
 There are 3 levels:
 

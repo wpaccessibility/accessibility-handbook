@@ -96,7 +96,7 @@ A heading to make the heading structure meaningful and understandable. This also
 <p>[...]</p>
 ```
 
-**Note**: If you include screen-reader-text as a part of a longer string in your WordPress theme, make sure the construction is translatable as a whole string (see I18n for WordPress Developers), because the word order may vary in different languages.
+**Note**: If you include screen-reader-text as a part of a longer string in your WordPress theme, make sure the construction is translatable as a whole string (see [I18n for WordPress Developers](https://codex.wordpress.org/I18n_for_WordPress_Developers)), because the word order may vary in different languages.
 
 ```html
 // Don't do this, because it doesn't allow changing word order.

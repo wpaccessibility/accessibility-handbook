@@ -54,7 +54,7 @@ For example, in your `header.php` theme file, close to the `<body>` tag, you cou
 
 See the [Twenty Sixteen styles](https://github.com/WordPress/twentysixteen/blob/master/style.css) for the .skip-link, .skip-link:focus, and .screen-reader-text classes.
 
-More on skip links in this handbook: [Skip Links](https://make.wordpress.org/accessibility/handbook/best-practices/markup/skip-links/).
+**Note**: More on skip links in this handbook: [Skip Links](https://make.wordpress.org/accessibility/handbook/best-practices/markup/skip-links/).
 
 ## Images
 
@@ -63,7 +63,7 @@ More on skip links in this handbook: [Skip Links](https://make.wordpress.org/acc
 - Give any decorative images in an `img` element an empty alt (`alt=""`).
 - Describe (for non-visual readers) the contents and purpose of the image in the alternate text.
 
-More on images in this handbook: [Alternative text for images](https://make.wordpress.org/accessibility/handbook/best-practices/content/alternative-text-for-images/).
+**Note**: More on images in this handbook: [Alternative text for images](https://make.wordpress.org/accessibility/handbook/best-practices/content/alternative-text-for-images/).
 
 ## Color Contrast
 
@@ -76,7 +76,7 @@ The WordPress project aims to maintain color contrast accessibility at the [WCAG
 - Test your design palette in a [color blindness simulator](https://developer.wordpress.org/themes/functionality/accessibility/#contrast-color-testing).
 - Avoid using color alone to distinguish important elements.
 
-More on color, and how to test this, in this handbook: [Use of color](https://make.wordpress.org/accessibility/handbook/best-practices/design/use-of-color/).
+**Note**: More on color, and how to test this, in this handbook: [Use of color](https://make.wordpress.org/accessibility/handbook/best-practices/design/use-of-color/).
 
 ## Forms
 
@@ -94,9 +94,9 @@ Choose the most accurate elements, such as `<p>` for paragraphs, `<blockquote>` 
 
 ### Text
 
-- Lists: Markup lists as either `<ul>`, `<ol>`, or `<dl>`.
-- Quotes: Wrap a quote meant to display as a block (e.g., as its own separate paragraph) in a `<blockquote>` tag, and a quote meant to display inline (e.g., within a paragraph) in a `<q>` tag.
-- Abbreviations: Expand or explain an abbreviation, acronym, initialism, or numeronym on the first use on the page, then use the shortened form without modification. The `abbr` element is not required.
+- **Lists**: Markup lists as either `<ul>`, `<ol>`, or `<dl>`.
+- **Quotes**: Wrap a quote meant to display as a block (e.g., as its own separate paragraph) in a `<blockquote>` tag, and a quote meant to display inline (e.g., within a paragraph) in a `<q>` tag.
+- **Abbreviations**: Expand or explain an abbreviation, acronym, initialism, or numeronym on the first use on the page, then use the shortened form without modification. The `abbr` element is not required.
 
 ### Language
 
@@ -112,13 +112,13 @@ Choose the most accurate elements, such as `<p>` for paragraphs, `<blockquote>` 
 - Identify row and column headers with a `<th>` element.
 - Use the scope attribute to associate headers with their data cells, e.g. `th scope="row"` or `th scope="col"`.
 
-See also “[Tables](https://make.wordpress.org/accessibility/handbook/best-practices/markup/tables/)” in this handbook.
+**Note:** See also “[Tables](https://make.wordpress.org/accessibility/handbook/best-practices/markup/tables/)” in this handbook.
 
 ### Links, Buttons, and Inputs
 
 - Use HTML controls that have a native keyboard interaction: `<button>`, `<input>`, or `<a>`. Choose the most semantically accurate element for the purpose.
 - Do _not_ use a div, span, or link element as a button.
-- Use a link only when you have a valid URL. This is _not_ an accessible link: <a href="#">, _nor_ is <a id="button">. A link with no _href_ attribute cannot be navigated to using the keyboard.
+- Use a link only when you have a valid URL. This is _not_ an accessible link: `<a href="#">`, _nor_ is `<a id="button">`. A link with no _href_ attribute cannot be navigated to using the keyboard.
 - Use a button for a control that triggers an action.
 - Add machine-readable text with the name of a control — don’t just use an icon. This text can be visibly hidden.
 - Add ARIA attributes to expose the state of a button, such as `aria-expanded` or `aria-pressed`.
@@ -140,7 +140,7 @@ Here’s the same button with an icon and screen-reader only text:
 </button>
 ```
 
-Screen-readers voice any content you add to the `:before` and `:after` CSS selectors.
+**Note:** Screen-readers voice any content you add to the `:before` and `:after` CSS selectors.
 
 ## Multimedia
 

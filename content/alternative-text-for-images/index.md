@@ -49,7 +49,7 @@ An `alt` attribute with text describing the **target** should be added:
 
 - images that contain a link
 
-An empty alt attribute (alt="") should be added:
+An empty `alt` attribute (`alt=""`) should be added:
 
 - when images are decorative; but it is better to insert such images using CSS
 

@@ -11,7 +11,7 @@ There are two main practices for achieving an accessible modal dialog:
 
 Detailed information can be found in the [WAI-ARIA authoring practices for modals](https://www.w3.org/TR/wai-aria-practices/#dialog_modal).
 
-The HTML 5.2 specification will include a native <dialog> element which is being implemented by browser vendors. [See caniuse.com for up-to-date information on support](https://caniuse.com/#feat=dialog).
+The HTML 5.2 specification will include a native `<dialog>` element which is being implemented by browser vendors. [See caniuse.com for up-to-date information on support](https://caniuse.com/#feat=dialog).
 
 ## Resources
 
